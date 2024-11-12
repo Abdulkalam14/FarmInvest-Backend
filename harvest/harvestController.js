@@ -8,7 +8,7 @@ const createHarvest = async(req,res,next) => {
         const newHarvest = await harvest.create({
             farmer: new ObjectId('651456ee12ee480d4d1a2fd1'),
             crop: "Gram",
-            expectedHarvestDate: new Date('2024-3-4'),
+            expectedHarvestDate: new Date('2024-12-23'),
             quantity: 15,
             totalInvestment: 2025,
             amountPerKg: 135
